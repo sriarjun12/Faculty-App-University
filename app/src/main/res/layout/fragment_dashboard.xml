@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:paddingStart="25dp"
+    android:paddingEnd="25dp"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/student"
+        app:mtf_backgroundColor="#FFF4CB"
+        >
+        <EditText
+            android:id="@+id/edt_name"
+            android:hint="Student Name"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/mobile"
+        app:mtf_backgroundColor="#FFF4CB"
+        >
+        <EditText
+            android:id="@+id/edt_mobile"
+            android:hint="Number"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/gmaillogo"
+        app:mtf_backgroundColor="#FFF4CB"
+        >
+        <EditText
+            android:id="@+id/edt_mail"
+            android:hint="Email"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/student"
+        app:mtf_backgroundColor="#FFF4CB"
+        >
+        <EditText
+            android:id="@+id/edt_rollno"
+            android:hint="Roll No"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <Button
+        android:id="@+id/add_student"
+        android:text="Add Student"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>

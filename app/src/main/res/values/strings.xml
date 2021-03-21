@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Faculty College</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Add Student</string>
+    <string name="title_notifications">Your Class</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_note">Notes</string>
+    <string name="title_Time">Time Table</string>
+    <string name="title_Student">Student Details</string>
+</resources>

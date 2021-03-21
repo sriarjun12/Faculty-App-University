@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="25dp"
+    android:orientation="vertical"
+    android:paddingRight="25dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tutor        "
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Yes"/>
+            <RadioButton
+                android:id="@+id/no"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/teacher"
+        app:mtf_backgroundColor="#FFF4CB"
+        >
+        <EditText
+            android:id="@+id/edt_class_id"
+            android:hint="Class ID"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/teacher"
+        app:mtf_backgroundColor="#FFF4CB"
+        >
+        <EditText
+            android:id="@+id/edt_designation"
+            android:hint="Designation"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/teacher"
+        app:mtf_backgroundColor="#FFF4CB"
+        >
+        <EditText
+            android:id="@+id/edt_department"
+            android:hint="Department"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/teacher"
+        app:mtf_backgroundColor="#FFF4CB"
+        >
+        <EditText
+            android:id="@+id/edt_addresss"
+            android:hint="Address"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+</LinearLayout>

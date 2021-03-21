@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/faculty_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name "
+            android:textColor="@color/blue_theme" />
+
+        <TextView
+            android:id="@+id/faculty_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="999999999"
+            android:textColor="@color/blue_theme" />
+
+        <TextView
+            android:id="@+id/faculty_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="skasc@skasc.ac.in"
+            android:textColor="@color/blue_theme" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
